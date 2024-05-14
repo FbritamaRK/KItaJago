@@ -8011,7 +8011,7 @@ div.nk-error {
     font-weight: 600;
     line-height: 29px;
     text-align: center;
-    vertical-align: text-top;
+    /* vertical-align: text-top; */
     background-color: #fff;
     border-radius: 50%;
 }
