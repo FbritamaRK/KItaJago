@@ -135,6 +135,11 @@ body {
 	margin-left: 5px;
 }
 
+.main-menu a {
+	color: #fff;
+	margin-left: 25px;
+}
+
 .main-menu li a:hover {
 	color: #b01ba5;
 }

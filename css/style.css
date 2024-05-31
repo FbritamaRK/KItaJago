@@ -1,7 +1,7 @@
 html,
 body {
 	height: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-font-smoothing: antialiased;
 }
@@ -373,6 +373,11 @@ ol {
 .main-menu li a i {
 	color: #928d92;
 	margin-left: 5px;
+}
+
+.main-menu a {
+	color: #fff;
+	margin-left: 25px;
 }
 
 .main-menu li a:hover {
