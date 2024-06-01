@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Valorant Statistics</h1>
+        <h1>Counter Strike 2 Statistics</h1>
     </header>
     <main>
         <section class="stats">
@@ -17,7 +17,6 @@
             <ul>
                 <li>
                     <span>K/D Ratio:</span>
-                   
                     <span id="kd-ratio">1.25</span>
                 </li>
                 <li>
@@ -28,6 +27,10 @@
                     <span>Headshot %:</span>
                     <span id="headshot-percentage">40%</span>
                 </li>
+                <li>
+                    <span>Matches Played:</span>
+                    <span id="matches-played">200</span>
+                </li>
             </ul>
         </section>
         <section class="stats">
@@ -35,19 +38,27 @@
             <ul>
                 <li>
                     <span>Kills:</span>
-                    <span id="kills">100</span>
+                    <span id="kills">1000</span>
                 </li>
                 <li>
                     <span>Deaths:</span>
-                    <span id="deaths">80</span>
+                    <span id="deaths">800</span>
                 </li>
                 <li>
                     <span>Assists:</span>
-                    <span id="assists">20</span>
+                    <span id="assists">200</span>
                 </li>
                 <li>
                     <span>First Bloods:</span>
-                    <span id="first-bloods">10</span>
+                    <span id="first-bloods">150</span>
+                </li>
+                <li>
+                    <span>Bomb Plants:</span>
+                    <span id="bomb-plants">50</span>
+                </li>
+                <li>
+                    <span>Bomb Defuses:</span>
+                    <span id="bomb-defuses">30</span>
                 </li>
             </ul>
         </section>
@@ -56,12 +67,16 @@
             <ul>
                 <li>
                     <span>Damage/Round:</span>
-                    <span id="damage-per-round">100</span>
+                    <span id="damage-per-round">75</span>
+                </li>
+                <li>
+                    <span>Total Damage:</span>
+                    <span id="total-damage">150000</span>
                 </li>
             </ul>
         </section>
         <section class="stats">
-            <h2>History</h2>
+            <h2>Match History</h2>
             <table id="match-history">
                 <thead>
                     <tr>
@@ -78,68 +93,44 @@
             </table>
         </section>
         <section class="stats">
-            <h2>Top Agents</h2>
-            <ul id="top-agents">
+            <h2>Top Maps</h2>
+            <ul id="top-maps">
                 <li>
-                    <span>1. Jett:</span>
+                    <span>1. Dust II:</span>
                     <ul>
                         <li>
                             <span>Matches:</span>
-                            <span id="jett-matches">50</span>
+                            <span id="dust2-matches">70</span>
                         </li>
                         <li>
                             <span>Win %:</span>
-                            <span id="jett-win-percentage">60%</span>
-                        </li>
-                        <li>
-                            <span>K/D:</span>
-                            <span id="jett-kd">1.25</span>
-                        </li>
-                        <li>
-                            <span>Best Map Win Rate:</span>
-                            <span id="jett-best-map-win-rate">80% (Ascent)</span>
+                            <span id="dust2-win-percentage">65%</span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <span>2. Phoenix:</span>
+                    <span>2. Mirage:</span>
                     <ul>
                         <li>
                             <span>Matches:</span>
-                            <span id="phoenix-matches">40</span>
+                            <span id="mirage-matches">50</span>
                         </li>
                         <li>
                             <span>Win %:</span>
-                            <span id="phoenix-win-percentage">55%</span>
-                        </li>
-                        <li>
-                            <span>K/D:</span>
-                            <span id="phoenix-kd">1.10</span>
-                        </li>
-                        <li>
-                            <span>Best Map Win Rate:</span>
-                            <span id="phoenix-best-map-win-rate">75% (Bind)</span>
+                            <span id="mirage-win-percentage">60%</span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <span>3. Reyna:</span>
+                    <span>3. Inferno:</span>
                     <ul>
                         <li>
                             <span>Matches:</span>
-                            <span id="reyna-matches">30</span>
+                            <span id="inferno-matches">40</span>
                         </li>
                         <li>
                             <span>Win %:</span>
-                            <span id="reyna-win-percentage">50%</span>
-                        </li>
-                        <li>
-                            <span>K/D:</span>
-                            <span id="reyna-kd">1.05</span>
-                        </li>
-                        <li>
-                            <span>Best Map Win Rate:</span>
-                            <span id="reyna-best-map-win-rate">70% (Haven)</span>
+                            <span id="inferno-win-percentage">55%</span>
                         </li>
                     </ul>
                 </li>
@@ -149,20 +140,21 @@
             <h2>Top Weapons</h2>
             <ul id="top-weapons">
                 <li>
-                    <span>1. Vandal:</span>
-                    <span id="vandal-kills">50 kills</span>
+                    <span>1. AK-47:</span>
+                    <span id="ak47-kills">500 kills</span>
                 </li>
                 <li>
-                    <span>2. Phantom:</span>
-                    <span id="phantom-kills">30 kills</span>
+                    <span>2. M4A4:</span>
+                    <span id="m4a4-kills">400 kills</span>
                 </li>
                 <li>
-                    <span>3. Operator:</span>
-                    <span id="operator-kills">20 kills</span>
+                    <span>3. AWP:</span>
+                    <span id="awp-kills">300 kills</span>
                 </li>
             </ul>
         </section>
     </main>
+    
     <script src="script.js"></script>
 </body>
 </html>
