@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #2C4E80;
-    background-image: url(https://img.freepik.com/free-vector/earth-view-night-from-alien-planet-neon-space_33099-1876.jpg?w=1380&t=st=1711552011~exp=1711552611~hmac=3064f3ec25d8b3ad89fdbd6ed8e71620f3fa51be84714a2b1a0d7f5cc8041c78);
-    background-size: cover;
     margin: 0;
     padding: 20;
     display: flex;
@@ -11,17 +9,43 @@ body {
     height: 100vh;
 }
 
+.VALORANT {
+	background-image: url(/endgame-master/img/Background/va.jpg);
+	background-size: cover;
+}
+
+.CS{
+	background-image: url(/endgame-master/img/Background/cs2.jpg);
+	background-size: cover;
+}
+
+.PUBG{
+	background-image: url(/endgame-master/img/Background/PUBG.jpg);
+	background-size: cover;
+}
+
+.B5{
+	background-image: url(/endgame-master/img/Background/b5.png);
+	background-size: cover;
+}
+
+.B1{
+	background-image: url(/endgame-master/img/Background/b1.jpg);
+	background-size: cover;
+}
+
 /*------------------
   Header section
 ---------------------*/
 
 .header-section {
-	position: absolute;
+	position: fixed; 
 	width: 100%;
 	left: 0;
 	top: 0;
-	z-index: 99;
+	z-index: 100;
 	padding: 15px 15px 0;
+	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24); 
 }
 
 .header-warp {
@@ -38,46 +62,18 @@ body {
 	padding-top: 4px;
 }
 
-.header-social a,
-.footer-social a,
-.geme-social-share a {
-	display: -ms-inline-flex;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	width: 32px;
-	height: 32px;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	border-radius: 50%;
-	color: #fff;
-	font-size: 12px;
-	margin-left: 13px;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.header-social a:hover,
-.footer-social a:hover,
-.geme-social-share a:hover {
-	background: #b01ba5;
-}
-
 .header-bar-warp {
 	background: #081624;
-	padding: 39px 40px 0;
-	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
-	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
-	border-radius: 15px;
+    padding: 10px 40px; 
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
-.site-logo {
-	float: left;
+.header-section .site-logo img {
+    height: 50px;
+    width: auto;  
+    vertical-align: middle; 
 }
 
 .user-panel {
@@ -98,7 +94,7 @@ body {
 
 .main-menu {
 	list-style: none;
-	text-align: center;
+	text-align: left;
 	padding-top: 3px;
 }
 
@@ -108,14 +104,22 @@ body {
 }
 
 .main-menu li a {
-	display: block;
+	display: flex;
 	font-size: 16px;
 	font-weight: 500;
 	color: #fff;
-	margin-right: 40px;
-	padding-bottom: 28px;
 	position: relative;
 	padding-right: 20px;
+	font-weight: bold;
+}
+
+.main-menu a{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.main-menu a:hover{
+	color: #b01ba5;
 }
 
 .main-menu li a:after {
