@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #2C4E80;
+	background-color: red;
     margin: 0;
     padding: 20;
     display: flex;
@@ -10,27 +10,28 @@ body {
 }
 
 .VALORANT {
-	background-image: url(/endgame-master/img/Background/va.jpg);
+	background-image: url(../img/Background/va.jpg);
 	background-size: cover;
+	background-position: center;
 }
 
 .CS{
-	background-image: url(/endgame-master/img/Background/cs2.jpg);
+	background-image: url(../img/Background/cs2.jpg);
 	background-size: cover;
 }
 
 .PUBG{
-	background-image: url(/endgame-master/img/Background/PUBG.jpg);
+	background-image: url(../img/Background/PUBG.jpg);
 	background-size: cover;
 }
 
 .B5{
-	background-image: url(/endgame-master/img/Background/b5.png);
+	background-image: url(../img/Background/b5.png);
 	background-size: cover;
 }
 
 .B1{
-	background-image: url(/endgame-master/img/Background/b1.jpg);
+	background-image: url(../img/Background/b1.jpg);
 	background-size: cover;
 }
 
