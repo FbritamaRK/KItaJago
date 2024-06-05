@@ -81,3 +81,18 @@ $(window).on('load', function() {
 
 
 })(jQuery);
+
+/*------------------
+		Transparent Header When Not Scrolled 
+	--------------------*/
+document.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener("scroll", function() {
+        var header = document.querySelector(".header-section");
+        if (window.scrollY > 0) {
+            header.classList.remove("transparent");
+        } else {
+            header.classList.add("transparent");
+        }
+    });
+});
+

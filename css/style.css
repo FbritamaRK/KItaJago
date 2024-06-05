@@ -262,7 +262,15 @@ ol {
 	top: 0;
 	z-index: 100;
 	padding: 15px 15px 0;
-	box-shadow: 0 0 9px 3px #2b5581; 
+	box-shadow: 0 0 9px 3px #4278b2; 
+	border-radius: 0 0 10px 10px; /* Radius only for bottom corners */
+	transition: background 0.4s, box-shadow 0.4s;
+}
+
+
+.header-section.transparent {
+	background: transparent;
+	box-shadow: none;
 }
 
 .header-warp {
@@ -270,21 +278,17 @@ ol {
 	margin: 0 auto;
 }
 
-.header-social p,
-.footer-social p,
-.geme-social-share p {
-	display: inline-block;
-	color: #9190a5;
-	font-size: 16px;
-	padding-top: 4px;
-}
-
 .header-bar-warp {
-	background: #0b1e32;
+	background: #2766aa;
     padding: 10px 40px; 
     border-radius: 15px;
     display: flex;
     align-items: center;
+    transition: background 0.4s;
+}
+
+.header-section.transparent .header-bar-warp {
+    background: transparent;
 }
 
 .header-section .site-logo img {
@@ -430,6 +434,11 @@ ol {
 .slicknav_menu {
 	display: none;
 }
+
+/*------------------
+  Hero section
+---------------------*/
+
 
 /*------------------
   Hero section
