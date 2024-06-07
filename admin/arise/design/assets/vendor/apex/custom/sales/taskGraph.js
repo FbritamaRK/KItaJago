@@ -30,7 +30,7 @@ var options = {
 		}
 	},
 	series: [80, 70, 10],
-	labels: ['New', 'Completed', 'Pending'],
+	labels: ['Heads', 'Legs', 'Body'],
 	colors: ['#4267cd', '#32b2fa', '#f87957'],
 }
 

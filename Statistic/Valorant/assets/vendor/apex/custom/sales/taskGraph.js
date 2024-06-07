@@ -20,7 +20,7 @@ var options = {
 				},
 				total: {
 					show: true,
-					label: 'Tasks',
+					label: 'Kills',
 					formatter: function (w) {
 						// By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
 						return '19'
@@ -30,7 +30,7 @@ var options = {
 		}
 	},
 	series: [80, 70, 10],
-	labels: ['New', 'Completed', 'Pending'],
+	labels: ['Heads', 'Legs', 'Body'],
 	colors: ['#4267cd', '#32b2fa', '#f87957'],
 }
 
