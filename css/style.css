@@ -439,11 +439,6 @@ ol {
   Hero section
 ---------------------*/
 
-
-/*------------------
-  Hero section
----------------------*/
-
 .hero-slider .owl-dots {
 	display: -ms-flex;
 	display: -webkit-box;
@@ -1532,34 +1527,6 @@ body {
 	color: #c313b7;
 }
 
-/* ------------------
-	Blog Page
----------------------*/
-
-.blog-page .blog-filter {
-	margin-bottom: 77px;
-}
-
-.big-blog-item {
-	margin-bottom: 65px;
-}
-
-.big-blog-item .blog-thumbnail {
-	margin-bottom: 30px;
-}
-
-.big-blog-item .blog-content .top-meta {
-	margin-bottom: 15px;
-}
-
-.big-blog-item .blog-content h3 {
-	max-width: 100%;
-	margin-bottom: 25px;
-}
-
-.big-blog-item .blog-content p {
-	margin-bottom: 10px;
-}
 
 /* ----------------
   Responsive
